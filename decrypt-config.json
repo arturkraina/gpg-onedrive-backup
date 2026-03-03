@@ -1,0 +1,9 @@
+{
+  "source_dir": "~/OneDrive - YOUR_ORGANIZATION_NAME/Documents",
+  "dest_dir": "~/Documents",
+  "log_dir": "~/Documents/_encrypt/logs",
+  "log_file": "decrypt.log",
+  "included_dirs": [
+    "path/to/folder/you/want/to/decrypt"
+  ]
+}
