@@ -1,0 +1,40 @@
+{
+  "source_dirs": [
+    "~/Documents"
+  ],
+  "copy_only_dirs": [
+    "~/.password-store"
+  ],
+  "dest_dir": "~/OneDrive - YOUR_ORGANIZATION_NAME",
+  "log_dir": "~/Documents/_encrypt/logs",
+  "log_file": "encrypt.log",
+  "gpg_recipient": "your@email.com",
+  "excluded_dirs": [
+    ".git",
+    "node_modules",
+    "__pycache__",
+    ".venv",
+    "venv",
+    ".terraform",
+    "_encrypt",
+    ".AppleDouble",
+    ".Spotlight-V100",
+    ".Trashes",
+    ".fseventsd",
+    ".DocumentRevisions-V100",
+    ".TemporaryItems"
+  ],
+  "excluded_files": [
+    ".DS_Store",
+    ".localized",
+    ".apdisk",
+    ".VolumeIcon.icns",
+    "._*",
+    "*.icloud",
+    "*.gpg",
+    "*.tfstate",
+    "*.tfstate.backup",
+    ".terraform.lock.hcl"
+  ],
+  "included_dirs": []
+}
